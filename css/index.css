@@ -275,6 +275,95 @@ button{
 }
 }
 
+@media (max-width:500px){
+
+
+	.navhead{
+		display:flex;
+		flex-direction:column;
+		border-top: grey 1px solid;
+	
+	}
+	.nav{
+		display:flex;
+		flex-direction: column-reverse;
+	
+
+	}
+	nav a{
+		border-bottom: grey 1px solid;
+		width: 100%;
+		padding: 2% 0;
+	
+	}
+	.container {
+		width:100%;
+	}
+.logo{
+	width: 30%;
+	
+}
+h1{
+	font-size: 450%;
+}
+button{
+	width: 35%;
+	padding: 1%;
+}
+.header{
+	margin-bottom: 6%;
+}
+}
+/*body{
+	width:92%;
+	margin: 0 auto;
+}*/
+.featuresabout{
+	margin: 0 auto;
+	width:92%;
+	display: block;
+	border-top: black solid 2px;
+}
+.features{
+	margin-top: 8%;
+}
+.about{
+	margin: 8% 0;
+}
+h2{
+	font-size: 99%;
+}
+
+.servprodvision{
+	margin: 0 auto;
+	width:92%;
+	display: block;
+	margin-top: 3%;
+}
+.services{
+margin-bottom: 15%;
+}
+.product{
+	margin-bottom: 15%;
+}
+.vision{
+	margin-bottom:3%;
+}
+.middle-img {
+	display:flex;
+	margin: 0 auto;
+	width:92%;
+	justify-content: center;
+}
+.contact{
+	width:92%;
+	margin: 0 auto;
+}
+footer{
+	margin: 0 auto;
+	width:92%;
+}
+
 
 
 
