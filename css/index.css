@@ -258,10 +258,11 @@ footer{
 }
 .navhead {
 	display:flex;
-	width:100%;
-	justify-content: space-between;
-	align-content:center;
+	width:95%;
 	margin: 5% 0;
+	justify-content: space-between;
+	
+	
 }
 .bigtitle{
 width:100%;
@@ -283,6 +284,7 @@ button{
 		flex-direction:column;
 		border-top: grey 1px solid;
 		margin-top: 0;
+		width:100%;
 	
 	}
 	.nav{
@@ -315,14 +317,10 @@ button{
 .header{
 	margin-bottom: 6%;
 }
-}
-/*body{
-	width:92%;
-	margin: 0 auto;
-}*/
+
 .featuresabout{
 	margin: 0 auto;
-	width:92%;
+	width:95%;
 	display: block;
 	border-top: black solid 2px;
 }
@@ -338,7 +336,7 @@ h2{
 
 .servprodvision{
 	margin: 0 auto;
-	width:92%;
+	width:95%;
 	display: block;
 	margin-top: 3%;
 }
@@ -354,16 +352,16 @@ margin-bottom: 15%;
 .middle-img {
 	display:flex;
 	margin: 0 auto;
-	width:92%;
+	width:95%;
 	justify-content: center;
 }
 .contact{
-	width:92%;
+	width:95%;
 	margin: 0 auto;
 }
 footer{
 	margin: 0 auto;
-	width:92%;
+	width:95%;
 }
 
 
