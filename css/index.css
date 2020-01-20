@@ -282,18 +282,20 @@ button{
 		display:flex;
 		flex-direction:column;
 		border-top: grey 1px solid;
+		margin-top: 0;
 	
 	}
 	.nav{
 		display:flex;
 		flex-direction: column-reverse;
-	
-
+		justify-content: space-evenly;
 	}
 	nav a{
 		border-bottom: grey 1px solid;
 		width: 100%;
-		padding: 2% 0;
+		padding: 4% 0;
+		
+		
 	
 	}
 	.container {
@@ -301,7 +303,7 @@ button{
 	}
 .logo{
 	width: 30%;
-	
+	padding-bottom: 4%;
 }
 h1{
 	font-size: 450%;
